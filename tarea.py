@@ -3,6 +3,7 @@ import requests
 import numpy as np
 
 st.title('Linear model client')
+st.write('**Omar Arias Zepeda - A00830966**')
 st.write('### Fórmula del modelo: Y = 2X + 1')
 
 url = 'https://tensorflow-serving-iko2.onrender.com/v1/models/linear-model:predict'
